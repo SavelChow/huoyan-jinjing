@@ -1,0 +1,48 @@
+{
+  "classes": [
+    {
+      "id": 0,
+      "name": "non_catalogue",
+      "specification": "不符合任何目标类型或规格"
+    },
+    {
+      "id": 1,
+      "name": "long_screw",
+      "specification": "M4x25"
+    },
+    {
+      "id": 2,
+      "name": "thick_screw",
+      "specification": "M5x10"
+    },
+    {
+      "id": 3,
+      "name": "thin_screw",
+      "specification": "M4x10"
+    },
+    {
+      "id": 4,
+      "name": "hex_nut",
+      "specification": "M4"
+    },
+    {
+      "id": 5,
+      "name": "flat_washer",
+      "specification": "M5"
+    }
+  ],
+  "reference_expected_counts": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2
+  },
+  "reference_counts_status": "PROPOSED_CONFIRM_AFTER_PILOT",
+  "models": {
+    "baseline1": "members.member04_hog.model",
+    "baseline2": "members.member06_research.baseline2",
+    "baseline3": "members.member05_detector.model",
+    "final": "members.member06_research.final_model"
+  }
+}
